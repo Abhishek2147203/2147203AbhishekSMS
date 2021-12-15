@@ -1,0 +1,220 @@
+
+
+
+
+
+/*Login css*/
+div.loginheader{
+	margin-bottom: 50px;
+}
+body#loginbody{
+	background: url("/Users/abhishekanand/Desktop/css/stock.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: arial;
+}
+div.loginheader{
+	text-align: center;
+
+}
+div.loginheader h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: #a6170a;
+	padding: 0px;
+	margin: 0px;
+}
+div.loginheader h3{
+	color: #f01d0a;
+	font-size: 60px;
+	border-bottom: 5px;
+	margin: 0px;
+}
+div.loginheader p:after{
+	content: " ";
+	display: block;
+	height: 5px;
+	background: #f685a2;
+	width: 50%;
+	margin: 0 auto;
+}
+div.loginbody form{
+	margin: 0 auto;
+	width: 450px;
+	background: rgba(0,0,0,.5);
+	padding: 50px;
+	border-radius: 8px;
+	border: 2px solid #fff;
+}
+div.loginInputsContainer{
+	margin-top: 30px;
+}
+div.loginInputsContainer label
+{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+div.loginInputsContainer input{
+	height: 30px;
+	width: 100%;
+	border: 2px solid #d40339;
+	font-size: 10px;
+	font-style: italic;
+	text-align: center;
+	padding: 5px;
+
+}
+div.loginButtom{
+	margin-top: 40px;
+	text-align: center;
+
+
+}
+div.loginButtom button{
+	font-size: 20px;
+	padding: 10px 40px;
+	background: #a6170a;
+	border: none;
+	color: #0a0201;
+	text-align: center;
+}
+
+
+
+
+
+
+/*HomePage*/
+body{
+	font-family: arial;
+}
+div.header{
+	width: 100%;
+	height: 30px;
+	background: #100dd4;
+	text-align: right;
+	position: sticky; top: 0;
+}
+div.header a{
+	font-size: 20px;
+	color: #fff;
+	border: 0px solid #fff;
+	padding: 3px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+div.banner{
+	background: url("/Users/abhishekanand/Desktop/css/My.jpg")no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+div.homepagecontainer{
+	width: 100%;
+	/*height: 60vh;*/
+	max-width: 900px;
+	margin: 0 auto;
+}
+}
+div.bannerheader h1{
+    font-size: 100px;
+    color: #d40d0d;
+    line-height: 100%;
+    text-align: center;
+}
+div.bannerheader p{
+    font-size: 40px;
+    color: #a6170a;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+div.bannertagline{
+	margin-top: 20px;
+ font-size: 50px;
+ color:#fff;
+}
+div.bannericons{
+	margin-top: 150px;
+}
+div.bannericons a{
+	font-size: 35px;
+	margin-left: 40px;
+	padding: 4px 10px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #868485;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+}
+div.bannericons a:first-child{
+	margin-left: 0px;
+    
+}
+div.bannericons a:hover{
+	color: #fff;
+	font-size: 25px;
+	background: #f685a1;
+	transition: .5s all;
+
+}
+div.homepagefeatures{
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+div.homepagefeature{
+	padding: 12px 20px;
+	text-align: center;
+}
+div.homepagefeature span.featureicon{
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	font-size: 30px;
+	background: #f685a1;
+	color: #fff;
+	
+	padding-top: 30px;
+	border-radius: 40%;
+	margin-bottom:20pxs ;
+}
+
+div.homepagefeature h3.feature{
+	margin-bottom: 20px;
+}
+
+div.homepagefeature p.featuredis{
+	color: #848484;
+}
+@media only screen and (max-width: 600px){
+	div.header{
+	width: 100%;
+	height: 30px;
+	background: #100dd4;
+	text-align: right;
+	position: sticky; top: 0;
+}
+div.header a{
+	font-size: 20px;
+	color: #fff;
+	border: 0px solid #fff;
+	padding: 3px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
